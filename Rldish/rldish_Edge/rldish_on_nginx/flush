@@ -1,4 +1,0 @@
-#!/bin/bash
-
-rm  /home/huanwanghuanwang/nginx/ngcache/*
->  /home/huanwanghuanwang/nginx/logs/access.log
