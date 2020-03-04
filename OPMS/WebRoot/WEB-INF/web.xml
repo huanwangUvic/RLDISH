@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ResproServlet</servlet-name>
+    <servlet-class>com.servlet.ResproServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Proclear</servlet-name>
+    <servlet-class>com.servlet.Proclear</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProclearServlet</servlet-name>
+    <servlet-class>com.servlet.ProclearServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ApplyServlet</servlet-name>
+    <servlet-class>com.servlet.ApplyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteServlet</servlet-name>
+    <servlet-class>com.servlet.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddproServlet</servlet-name>
+    <servlet-class>com.servlet.AddproServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateproServlet</servlet-name>
+    <servlet-class>com.servlet.UpdateproServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryServlet</servlet-name>
+    <servlet-class>com.servlet.QueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ImplproServlet</servlet-name>
+    <servlet-class>com.servlet.impl.ImplproServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ImplclearServlet</servlet-name>
+    <servlet-class>com.servlet.impl.ImplclearServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ImpltaskServlet</servlet-name>
+    <servlet-class>com.servlet.impl.ImpltaskServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateplanServlet</servlet-name>
+    <servlet-class>com.servlet.impl.UpdateplanServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddtaskServlet</servlet-name>
+    <servlet-class>com.servlet.impl.AddtaskServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Completetask</servlet-name>
+    <servlet-class>com.servlet.impl.Completetask</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CompletetaskServlet</servlet-name>
+    <servlet-class>com.servlet.impl.CompletetaskServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TaskclearServlet</servlet-name>
+    <servlet-class>com.servlet.impl.TaskclearServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeletetaskServlet</servlet-name>
+    <servlet-class>com.servlet.impl.DeletetaskServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FileUploadServlet</servlet-name>
+    <servlet-class>com.servlet.FileUploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyUpload</servlet-name>
+    <servlet-class>com.servlet.MyUpload</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdatetaskServlet</servlet-name>
+    <servlet-class>com.servlet.impl.UpdatetaskServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ImplUpdateproServlet</servlet-name>
+    <servlet-class>com.servlet.impl.ImplUpdateproServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ImplQueryServlet</servlet-name>
+    <servlet-class>com.servlet.impl.ImplQueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProWarningServlet</servlet-name>
+    <servlet-class>com.servlet.ProWarningServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserManagementServlet</servlet-name>
+    <servlet-class>com.servlet.sysma.UserManagementServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddUserServlet</servlet-name>
+    <servlet-class>com.servlet.sysma.AddUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ResetPwd</servlet-name>
+    <servlet-class>com.servlet.sysma.ResetPwd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PwdServlet</servlet-name>
+    <servlet-class>com.servlet.sysma.PwdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SysQueryServlet</servlet-name>
+    <servlet-class>com.servlet.sysma.SysQueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OpeDailyServlet</servlet-name>
+    <servlet-class>com.servlet.sysma.OpeDailyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RecordQueryServlet</servlet-name>
+    <servlet-class>com.servlet.sysma.RecordQueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdatePwdServlet</servlet-name>
+    <servlet-class>com.servlet.individual.UpdatePwdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AnalyQueryServlet</servlet-name>
+    <servlet-class>com.servlet.analysis.AnalyQueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AnalyImplQueryServlet</servlet-name>
+    <servlet-class>com.servlet.analysis.AnalyImplQueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AnalyClearServlet</servlet-name>
+    <servlet-class>com.servlet.analysis.AnalyClearServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DepartmentPageServlet</servlet-name>
+    <servlet-class>com.servlet.sysma.DepartmentPageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OpeRecordPageServlet</servlet-name>
+    <servlet-class>com.servlet.sysma.OpeRecordPageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProPageServlet</servlet-name>
+    <servlet-class>com.servlet.analysis.ProPageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FirstQueryServlet</servlet-name>
+    <servlet-class>com.servlet.analysis.FirstQueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NeedToDo</servlet-name>
+    <servlet-class>com.servlet.NeedToDo</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>ResproServlet</servlet-name>
+    <url-pattern>/servlet/ResproServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Proclear</servlet-name>
+    <url-pattern>/servlet/Proclear</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProclearServlet</servlet-name>
+    <url-pattern>/servlet/ProclearServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ApplyServlet</servlet-name>
+    <url-pattern>/servlet/ApplyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteServlet</servlet-name>
+    <url-pattern>/servlet/DeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddproServlet</servlet-name>
+    <url-pattern>/servlet/AddproServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateproServlet</servlet-name>
+    <url-pattern>/servlet/UpdateproServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryServlet</servlet-name>
+    <url-pattern>/servlet/QueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImplproServlet</servlet-name>
+    <url-pattern>/servlet/ImplproServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImplclearServlet</servlet-name>
+    <url-pattern>/servlet/ImplclearServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImpltaskServlet</servlet-name>
+    <url-pattern>/servlet/ImpltaskServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateplanServlet</servlet-name>
+    <url-pattern>/servlet/UpdateplanServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddtaskServlet</servlet-name>
+    <url-pattern>/servlet/AddtaskServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Completetask</servlet-name>
+    <url-pattern>/servlet/Completetask</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CompletetaskServlet</servlet-name>
+    <url-pattern>/servlet/CompletetaskServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TaskclearServlet</servlet-name>
+    <url-pattern>/servlet/TaskclearServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeletetaskServlet</servlet-name>
+    <url-pattern>/servlet/DeletetaskServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileUploadServlet</servlet-name>
+    <url-pattern>/servlet/FileUploadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyUpload</servlet-name>
+    <url-pattern>/servlet/MyUpload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatetaskServlet</servlet-name>
+    <url-pattern>/servlet/UpdatetaskServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImplUpdateproServlet</servlet-name>
+    <url-pattern>/servlet/ImplUpdateproServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImplQueryServlet</servlet-name>
+    <url-pattern>/servlet/ImplQueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProWarningServlet</servlet-name>
+    <url-pattern>/servlet/ProWarningServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserManagementServlet</servlet-name>
+    <url-pattern>/servlet/UserManagementServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddUserServlet</servlet-name>
+    <url-pattern>/servlet/AddUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResetPwd</servlet-name>
+    <url-pattern>/servlet/ResetPwd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PwdServlet</servlet-name>
+    <url-pattern>/servlet/PwdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SysQueryServlet</servlet-name>
+    <url-pattern>/servlet/SysQueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OpeDailyServlet</servlet-name>
+    <url-pattern>/servlet/OpeDailyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RecordQueryServlet</servlet-name>
+    <url-pattern>/servlet/RecordQueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatePwdServlet</servlet-name>
+    <url-pattern>/servlet/UpdatePwdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AnalyQueryServlet</servlet-name>
+    <url-pattern>/servlet/AnalyQueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AnalyImplQueryServlet</servlet-name>
+    <url-pattern>/servlet/AnalyImplQueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AnalyClearServlet</servlet-name>
+    <url-pattern>/servlet/AnalyClearServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DepartmentPageServlet</servlet-name>
+    <url-pattern>/servlet/DepartmentPageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OpeRecordPageServlet</servlet-name>
+    <url-pattern>/servlet/OpeRecordPageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProPageServlet</servlet-name>
+    <url-pattern>/servlet/ProPageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FirstQueryServlet</servlet-name>
+    <url-pattern>/servlet/FirstQueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NeedToDo</servlet-name>
+    <url-pattern>/servlet/NeedToDo</url-pattern>
+  </servlet-mapping>
+ 
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
