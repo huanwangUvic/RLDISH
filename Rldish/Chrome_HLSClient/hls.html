@@ -1,0 +1,87 @@
+<html>
+	<head>
+	<meta charset='UTF-8'>
+	</head>
+	
+	<script src="./hls.js"></script>
+	<!-- Or if you want a more recent canary version -->
+	<!-- <script src="https://cdn.jsdelivr.net/npm/hls.js@canary"></script> -->
+	<video width="720" controls id="video"></video>
+	<script>
+			var video = document.getElementById('video');
+			video.muted = true;
+			var uplimit = 9;
+			var num_arm = 10;
+			var num_speed_try_4K = 5;
+			var num_speed_try_2K = 5;
+			var num_speed_try_hd = 5;
+			var detach_count = 0;
+			
+			var frag_loaded_count = 0;
+			var resume_interval = 37; // secs
+			var collection_repeat_times = 3;
+			var detach_count_limit = num_arm * collection_repeat_times;
+			
+			var contentType4k = '/content4K/4k10'
+			var contentType2k = '/content2K/2k10'
+			var contentTypehd = '/contenthd/hd10'
+			var origin_server = 'arbutus'
+			var edge_ip = '34.92.252.60'
+			
+			var m3u8Url_content4k = 'http://' + edge_ip + '/' + origin_server + contentType4k + '/test.m3u8';
+			var m3u8Url_content2k = 'http://' + edge_ip + '/' + origin_server + contentType2k + '/test.m3u8';
+			var m3u8Url_contenthd = 'http://' + edge_ip + '/' + origin_server + contentTypehd + '/test.m3u8';
+			var m3u8Url = m3u8Url_contenthd;
+			if(Hls.isSupported()) {
+			
+				var hls = new Hls();
+				hls.config.autoStartLoad = false;
+				hls.config.liveBackBufferLength = 0;
+				hls.attachMedia(video);
+				hls.on(Hls.Events.MEDIA_ATTACHED, function(){
+					hls.loadSource(m3u8Url);
+				})
+				
+				hls.on(Hls.Events.MANIFEST_PARSED,function(){
+					hls.startLoad(-1);
+					video.play();
+				});
+				
+				hls.on(Hls.Events.FRAG_LOADED, function(event, data){
+					frag_loaded_count++;
+					console.log("fragment LOADED: " + frag_loaded_count);
+					//console.log("Segment url: " + data.frag.url);
+					
+					if(frag_loaded_count >= uplimit){
+						console.log("stop loading...")
+						hls.stopLoad();
+						frag_loaded_count = 0;
+						hls.detachMedia();
+					}
+					else{
+						//console.log("fragment LOADED: " + frag_loaded_count);
+						//console.log("less than uplimit, continue..");
+					}
+				});
+				
+				
+				hls.on(Hls.Events.MEDIA_DETACHED, function(){
+
+						{
+							setTimeout(function(){
+							location.reload();
+							}, 1000 * resume_interval);
+					
+						}
+					}
+				);
+			
+			}
+		
+	</script>
+	<body>
+	<a href="javascript:hslClient()">Start hlsClient</a>
+	
+	</body>
+	
+</html>
